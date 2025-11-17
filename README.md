@@ -24,7 +24,7 @@ A small React + Vite dashboard designed for students to track tasks and study ha
 # Clone the repo
 git clone https://github.com/<your-username>/student-enviro-app.git
 
-cd student-enviro-app/student_app
+cd student_app
 
 # Install dependencies
 npm install
