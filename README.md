@@ -5,9 +5,13 @@ A small React + Vite dashboard designed for students to track tasks and study ha
 ## Tech Stack
 
 React (with functional components + hooks)
-Vite (build tool & dev server)
-JavaScript (ES6+)
-HTML5 & CSS3
+
+Vite 
+
+JavaScript 
+
+HTML5 & CSS
+
 React Router (client-side routing)
 
 Features Current
@@ -31,6 +35,7 @@ Separate page components (Home, About, Contact)
 State management using React hooks (useState)
 Dark mode UI with inline styles
 Event handling for forms and clicks
+
 ## Getting Evereything Set Up 
 ```bash
 
