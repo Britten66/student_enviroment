@@ -33,7 +33,18 @@ TodoItem
 
 Separate page components (Home, About, Contact)
 
-
+##  Project Structure
+```
+src/
+  ├── App.jsx (routing setup)
+  ├── pages/
+  │   ├── home.jsx
+  │   ├── about.jsx
+  │   └── contact.jsx
+  └── components/
+      ├── todolist.jsx
+      └── todoitem.jsx
+```
 
 ## Getting Evereything Set Up 
 ```bash
