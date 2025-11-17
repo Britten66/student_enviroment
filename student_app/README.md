@@ -17,3 +17,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ## student_enviroment
 a basic app to practice react and implement javascript ideologies 
+
+notes --- React treats components starting with lowercase as HTML elements ---
