@@ -9,7 +9,7 @@ export default function Footer() {
         color: "#555",
       }}
     >
-      <p>© {new Date().getFullYear()} Student Enviro App</p>
+      <p> {new Date().getFullYear()} Student Work Space </p>
     </footer>
   );
 }
