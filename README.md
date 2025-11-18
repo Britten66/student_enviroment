@@ -6,9 +6,9 @@ A small React + Vite dashboard designed for students to track tasks and study ha
 
 React (with functional components + hooks)
 
-Vite 
+Vite
 
-JavaScript 
+JavaScript
 
 HTML5 & CSS
 
@@ -24,16 +24,16 @@ Delete tasks individually
 Display list of tasks
 Empty state messaging
 
-
 Component architecture:
 
-TodoList 
+TodoList
 
-TodoItem 
+TodoItem
 
 Separate page components (Home, About, Contact)
 
-##  Project Structure
+## Project Structure
+
 ```
 src/
   ├── App.jsx (routing setup)
@@ -46,7 +46,17 @@ src/
       └── todoitem.jsx
 ```
 
-## Getting Evereything Set Up 
+## dark mode notes
+
+```
+ Dark mode works by:
+ 1. Tailwind checks if <html> has class="dark"
+ 2. If yes, use dark:bg-gray-900
+ 3. If no, use bg-white
+```
+
+## Getting Evereything Set Up
+
 ```bash
 
 
@@ -60,3 +70,4 @@ npm install
 
 # Run the dev server
 npm run dev
+```
