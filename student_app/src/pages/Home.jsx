@@ -5,6 +5,10 @@ export default function Home() {
         Welcome ____ ( this will have log in name )
       </h2>
       <p className="text-gray-600">This is your home page workspace </p>
+
+
+
+      
     </section>
   );
 }
