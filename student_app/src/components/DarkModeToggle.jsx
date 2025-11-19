@@ -10,7 +10,10 @@ import darkAnimation from "../assets/animations/nighton.json";
 export default function DarkMode() {
   // if dark mode is on
 
+  
   const [isDark, setIsDark] = useState(false);
+
+
 
   // function here
   const toggleDark = () => {
