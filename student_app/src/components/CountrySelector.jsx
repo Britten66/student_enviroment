@@ -39,26 +39,33 @@ export default function CountrySelector() {
 
   return (
     <div className="space-y-2">
-      <h1>Filtering Through Countries</h1>
-      <div className="flex gap-2">
+      <h2 className="text-center text-3xl font-bold">
+        Filtering Through Countries
+      </h2>{" "}
+      <div className="flex gap-4 justify-center">
         <button
-          className="border border-gray-300 px-4 py-2 rounded hover:bg-gray-100"
+          className=" px-4 py-2 mb-5 rounded  hover:bg-blue-100 hover:text-black"
           onClick={() => filterByletter("I")}
         >
           STARTING WITH I
         </button>
         <button
-          className="border border-gray-300 px-4 py-2 rounded hover:bg-gray-100"
+          className="border:none px-4 py-2 mb-5 rounded hover:bg-blue-100 hover:text-black"
           onClick={() => filterByletter("C")}
         >
           STARTING WITH C
         </button>
       </div>
-      <div className="max-h-96 overflow-y-auto border rounded p-2">
-        <div className="grid grid-cols-4 gap-2">
+      <div className="overflow-y-auto rounded p-2 scrollbar-hide flex justify-center">
+        <div className="grid grid-cols-4 gap-8 justify-center text-center">
           {countries.map((country) => (
             <div key={country.name.official}>
-              <img src={country.flags.png} alt="flag" width="100" />
+              <img
+                src={country.flags.png}
+                alt="flag"
+                width="100"
+                className="mx-auto h-16 w-28 object-contain"
+              />
               <h3>{country.name.official}</h3>
               <p>Capital: {country.capital?.[0] || "N/A"}</p>
             </div>

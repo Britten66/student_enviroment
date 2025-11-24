@@ -1,5 +1,3 @@
-import CountrySelector from "../components/CountrySelector";
-
 export default function Home() {
   return (
     <section className="space-y-4">
@@ -9,8 +7,6 @@ export default function Home() {
       <p className="text-gray-600">
         Here are a few projects I have done for practice{" "}
       </p>
-
-      <CountrySelector />
     </section>
   );
 }
